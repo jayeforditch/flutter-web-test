@@ -37,16 +37,11 @@ class _Home2State extends State<Home2> {
   }
 
   Widget buildRight() {
-    return Row(
-      // mainAxisAlignment: MainAxisAlignment.center,
-      children: [
-        Expanded(
-            child: Image.asset(
-          'image1.jpg',
-          fit: BoxFit.contain,
-        )),
-      ],
-    );
+    return Expanded(
+        child: Image.asset(
+      'image1.jpg',
+      fit: BoxFit.contain,
+    ));
   }
 
   @override
